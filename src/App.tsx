@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Mail, Phone, MapPin, ExternalLink, Download, Star } from 'lucide-react';
 import branding_image1 from './images/branding_image1.jpg';
 import branding_image2 from './images/branding_image2.jpg';
