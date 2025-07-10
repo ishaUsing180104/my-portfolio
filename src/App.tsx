@@ -2,6 +2,10 @@ import { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Mail, Phone, MapPin, ExternalLink, Download, Star } from 'lucide-react';
 import branding_image1 from './images/branding_image1.jpg';
 import branding_image2 from './images/branding_image2.jpg';
+import logo1 from './images/logo1.png';
+import logo2 from './images/logo2.png';
+import logo3 from './images/logo3.png';
+import interior_design from './images/interior_design.jpg';
 
 interface PortfolioItem {
   id: number;
@@ -23,25 +27,25 @@ const portfolioItems: PortfolioItem[] = [
   },
   {
     id: 2,
-    title: "E-commerce Website",
-    category: "Web Design",
-    image: "https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=800",
-    description: "Responsive e-commerce platform design",
+    title: "Modern Brand Identity",
+    category: "Branding",
+    image: logo1,
+    description: "Complete brand identity design for tech startup",
     client: "Fashion Forward"
   },
   {
     id: 3,
-    title: "Corporate Brochure",
+    title: "E Book Brochure",
     category: "Print",
-    image: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: logo2,
     description: "Professional tri-fold brochure design",
     client: "Business Solutions"
   },
   {
     id: 4,
-    title: "Mobile App Interface",
-    category: "UI/UX",
-    image: "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800",
+    title: "Modern Brand Identity",
+    category: "Branding",
+    image: logo3,
     description: "Clean and intuitive mobile app design",
     client: "MobileFirst"
   },
@@ -57,7 +61,7 @@ const portfolioItems: PortfolioItem[] = [
     id: 6,
     title: "Magazine Layout",
     category: "Print",
-    image: "https://images.pexels.com/photos/1226302/pexels-photo-1226302.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: interior_design,
     description: "Editorial magazine spread design",
     client: "Design Monthly"
   }
@@ -68,13 +72,13 @@ const services = [
     title: "Brand Identity",
     description: "Complete brand development including logo, color palette, and brand guidelines",
     icon: "🎨",
-    price: "Starting at $2,500"
+    price: "Starting at $1,500"
   },
   {
     title: "Web Design",
     description: "Responsive website design that converts visitors into customers",
     icon: "💻",
-    price: "Starting at $3,500"
+    price: "Starting at $500"
   },
   {
     title: "Print Design",
@@ -86,7 +90,7 @@ const services = [
     title: "UI/UX Design",
     description: "User-centered design for web and mobile applications",
     icon: "📱",
-    price: "Starting at $4,000"
+    price: "Starting at $1,000"
   }
 ];
 
