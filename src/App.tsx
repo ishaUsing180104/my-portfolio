@@ -207,7 +207,7 @@ function App() {
                   Solutions
                 </h1>
                 <p className="text-xl text-gray-300 leading-relaxed">
-                  I'm a passionate graphic designer with over 8 years of experience creating 
+                  I'm a passionate graphic designer with experience of creating 
                   compelling visual stories that help brands connect with their audiences.
                 </p>
               </div>
@@ -422,7 +422,7 @@ function App() {
                   <Mail className="text-[#332147]" size={24} />
                   <div>
                     <div className="font-medium text-white">Email</div>
-                    <div className="text-gray-300">hello@sarahdesigns.com</div>
+                    <div className="text-gray-300">ishasharma180104@gmail.com</div>
                   </div>
                 </div>
                 
@@ -430,7 +430,7 @@ function App() {
                   <Phone className="text-[#332147]" size={24} />
                   <div>
                     <div className="font-medium text-white">Phone</div>
-                    <div className="text-gray-300">+1 (555) 123-4567</div>
+                    <div className="text-gray-300">+91 7645934801</div>
                   </div>
                 </div>
                 
@@ -438,7 +438,7 @@ function App() {
                   <MapPin className="text-[#332147]" size={24} />
                   <div>
                     <div className="font-medium text-white">Location</div>
-                    <div className="text-gray-300">Gaya, Bihar</div>
+                    <div className="text-gray-300">Patna, Bihar</div>
                   </div>
                 </div>
               </div>
@@ -521,7 +521,7 @@ function App() {
           <div className="text-center">
             <div className="text-2xl font-bold mb-4">Portfolio</div>
             <p className="text-gray-400 mb-6">
-              Creating beautiful, functional design solutions since 2016
+              Creating beautiful, functional design solutions
             </p>
             <div className="text-gray-500">
               © 2024 Isha Design Studio. All rights reserved.
