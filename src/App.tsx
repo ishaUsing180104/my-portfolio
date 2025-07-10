@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, Mail, Phone, MapPin, ExternalLink, Download, Star } from 'lucide-react';
 import branding_image1 from './images/branding_image1.jpg';
 import branding_image2 from './images/branding_image2.jpg';
-import logo1 from './images/logo1.png';
-import logo2 from './images/logo2.png';
-import logo3 from './images/logo3.png';
+import logo1 from './images/logo1.jpg';
+import logo2 from './images/logo2.jpg';
+import logo3 from './images/logo3.jpg';
 import interior_design from './images/interior_design.jpg';
 
 interface PortfolioItem {
