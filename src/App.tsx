@@ -231,21 +231,6 @@ function App() {
                   Get In Touch
                 </button>
               </div>
-
-              <div className="flex items-center gap-8 pt-8">
-                <div>
-                  <div className="text-3xl font-bold text-white">150+</div>
-                  <div className="text-gray-400">Projects Completed</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-white">50+</div>
-                  <div className="text-gray-400">Happy Clients</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-white">1+</div>
-                  <div className="text-gray-400">Years Experience</div>
-                </div>
-              </div>
             </div>
             
             <div className="relative">
@@ -453,7 +438,7 @@ function App() {
                   I typically respond to all inquiries within 24 hours. 
                   For urgent projects, feel free to call directly.
                 </p>
-                <div className="text-[#332147] font-medium">
+                <div className="text-[#fefae0] font-medium">
                   Average response time: 4 hours
                 </div>
               </div>
